@@ -7,8 +7,6 @@ from web.Locator.RegisterLocator import Registerlocator
 @pytest.mark.usefixtures('set_up')
 class TestLogin(Base):
 
-    # __user_data_file = r"\login_details.xlsx"
-    # df = pd.read_excel(os.getcwd() + __user_data_file)
     @allure.step
     def test_register_success(self):
         driver = self.driver
