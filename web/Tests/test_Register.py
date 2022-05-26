@@ -7,6 +7,8 @@ from web.Locator.RegisterLocator import Registerlocator
 @pytest.mark.usefixtures('set_up')
 class TestLogin(Base):
 
+
+
     @allure.step
     def test_register_success(self):
         driver = self.driver
