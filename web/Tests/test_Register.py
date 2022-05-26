@@ -30,6 +30,7 @@ class TestLogin(Base):
             raise
             print("Title is wrong", format(e))
 
+    @pytest.mark.regression
     def test_incorrect_register_null_first_name(self):
         driver = self.driver
         register = RegisterPage(driver)
