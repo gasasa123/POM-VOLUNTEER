@@ -23,7 +23,7 @@ class TestLogin(Base):
         alert_message.accept()
 
         try:
-            assert text_message == "U Have been registered Successfully : Gasasa255@gmail.com"
+            assert text_message == "U Have been registered Successfully : Gasasa255@gmailץcom"
         except Exception as e:
             raise
             print("Title is wrong", format(e))
@@ -63,15 +63,7 @@ class TestLogin(Base):
             alert_message.accept()
 
             try:
-                assert text_message == "U Have been registered Successfully : Gasasa255@gmail.com"
+                assert text_message == "U Have been registered Successfully : Gasasa255@gmailץcom"
             except Exception as e:
                 raise
                 print("Title is wrong", format(e))
-
-
-
-
-
-
-
-
