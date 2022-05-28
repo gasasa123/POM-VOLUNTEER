@@ -8,8 +8,6 @@ from web.Locator.RegisterLocator import Registerlocator
 class TestLogin(Base):
 
 
-
-    @allure.step
     def test_register_success(self):
         driver = self.driver
         register = RegisterPage(driver)
