@@ -1,4 +1,3 @@
-import allure
 from web.Base.base import Base
 from web.Page.Registerpage import RegisterPage
 import pytest
@@ -6,7 +5,6 @@ from web.Locator.RegisterLocator import Registerlocator
 
 @pytest.mark.usefixtures('set_up')
 class TestLogin(Base):
-
 
     def test_register_success(self):
         driver = self.driver
